@@ -20,4 +20,4 @@ error('Something went wrong!');
 appEvents.emit('fileAccessed', 'test.txt');
 appEvents.emit('error', 'File not found');
 
-startServer(3000);
+startServer(3001);
